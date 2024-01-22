@@ -14,9 +14,7 @@ def hello_world():
 def new_route():
    return 'This is the New Route..  '
 
-@app.route('/test')
-def new_route():
-   return 'This is test Route..  '
+
 
 if __name__ == '__main__':
    app.run(host='0.0.0.0')
