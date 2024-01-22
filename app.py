@@ -14,9 +14,9 @@ def hello_world():
 def new_route():
    return 'This is the New Route..  '
 
-# @app.route('/test')
-# def new_route():
-#    return 'This is the test Route..  '
+@app.route('/test')
+def new_route():
+   return 'This is the test Route..  '
 
 
 
